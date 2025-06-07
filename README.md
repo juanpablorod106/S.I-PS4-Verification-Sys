@@ -1,3 +1,13 @@
+### Notes
+#### Librerías
+
+##### 1. Instalar Librerías
+NXT-Python es un paquete para controlar un robot LEGO NXT utilizando el lenguaje de programación Python. Puede comunicarse mediante USB o Bluetooth.
+Documentación de la librería aquí.
+###### 1.1 Documentación
+
+Tu puedes leer la [documentación][], o iniciar directamente con el [tutorial][].
+
 [documentación]: https://ni.srht.site/nxt-python/latest/
 [tutorial]: https://ni.srht.site/nxt-python/latest/handbook/tutorial.html
 
