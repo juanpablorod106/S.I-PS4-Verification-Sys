@@ -1,6 +1,6 @@
 from alg_luhn import *
 from db import *
-import time
+import time #time es una librería que proporciona diversas funciones relacionadas con el manejo del tiempo.
 
 def ps4_account_verificaction():
     limpiar_terminal()
@@ -19,7 +19,7 @@ def ps4_account_verificaction():
                 validar_luhn(arg_luhn())
             else:
                 print("Su usuario no existe, vuelva a ingresar sus datos.")
-                time.sleep(5) #time.sleep() es una función para retardar acciones
+                time.sleep(5) #time.sleep() Es una función para congelar el programa durante un tiempo específicado.
                 ps4_account_verificaction()
 
         case "2":
