@@ -1,6 +1,6 @@
 # Documentación
 
-## 1. Conectar Python con Bases de Datos.
+## 1. Conectar Python con Bases de Datos SQL.
 mysql.connector Es una librería que se encarga de permitirnos conectarnos al DML,DDL, manejo de transacciones, etc. De una base de datos SQL.
 Documentación de la librería aquí.
 ### 1.1 Documentación
