@@ -9,6 +9,7 @@ def ps4_account_verificaction():
     op = input("Requiere iniciar sesion o registrarse? \n Presione 1 si requiere iniciar sesion. \n Presione 2 si requiere registrarse. \n Sleccione uno de los 2 casos: ")
     match op:
         case "1":
+            global username
             print("\n Ingrese su nombre de usuario y su contraseña:")
             username = input("Ingresa tu nombre de usuario: ")
             password = input("Ingresa tu contraseña: ")
@@ -17,11 +18,13 @@ def ps4_account_verificaction():
             if result:
                 print("Su usuario existe")
                 print(f"Su usuario es \"{username}\" y su contraseña es {password}")
-                validar_luhn(arg_luhn())
+                #interfaz_ps()
+                mostrar_biblioteca_usuario()
             else:
                 print("Su usuario no existe, vuelva a ingresar sus datos o cree una cuenta.")
                 time.sleep(5) #time.sleep() Es una función para congelar el programa durante un tiempo específicado.
                 ps4_account_verificaction()
+        
         case "2":
             time.sleep(3)
             limpiar_terminal()

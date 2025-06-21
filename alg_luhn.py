@@ -4,7 +4,6 @@ def validar_luhn(numero):
     """
     Valida un número usando el algoritmo de Luhn.
     """
-
     # 1. Preparar el número
     numero = "".join(filter(str.isdigit, str(numero)))  # Eliminar caracteres no numéricos
     numero_lista = [int(d) for d in numero]
@@ -25,10 +24,3 @@ def arg_luhn():
         print(f"El número {numero} es válido según Luhn.")
     else:
         print(f"El número {numero} es inválido según Luhn.")
-
-def limpiar_terminal():
-    """Limpia la pantalla de la terminal independientemente del sistema operativo."""
-    if os.name == 'nt':  # Para Windows
-        os.system('cls')
-    else:  # Para Unix/Linux/MacOS
-        os.system('clear')
